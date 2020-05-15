@@ -51,7 +51,7 @@
 
   - name: install nodejs
     yum:
-      name: '@nodejs/development'
+      name: nodejs
       state: present
 
   - name: install nodejs systemd unit file
